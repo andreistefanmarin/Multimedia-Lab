@@ -17,10 +17,10 @@ public class CameraFollow : MonoBehaviour
         cam = GetComponent<Camera>();
     }
 
-    //void Start()
-    //{
-    //    MoveTo(GoalX());   // open the level already framed, without a slide
-    //}
+    void Start()
+    {
+        MoveTo(GoalX());   // open the level already framed, without a slide
+    }
 
     void LateUpdate()
     {
